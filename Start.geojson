@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "Start",
+"name": "start",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "OBJECTID": 149, "HTMLLINK": "http://cdss.state.co.us/structure/structure.aspx?wd=3&strid=3736", "WD": 3, "ID": 3736, "NAME": "WATER SUPPLY AND STORAGE RES 1", "CIU": "A", "DIV": 1, "COUNTY": "LARIMER", "ST": "CO", "WATER_SRC": "CACHE LA POUDRE RIV", "UTM_X": "492519.2", "UTM_Y": "4502083.8", "DATUM": "NAD83", "ZONE": "13", "LATDECDEG": "40.669595", "LONGDECDEG": "-105.088508", "ACCURACY": "Spotted from quarters", "ID_LABEL6": "033736", "ID_LABEL7": "0303736" }, "geometry": { "type": "Point", "coordinates": [ -105.088509116368883, 40.669595071520092 ] } }

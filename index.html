@@ -94,7 +94,7 @@
       fetch('base_route_wgs.geojson').then(r => r.json()),
       fetch('route_nlcd_wgs.geojson').then(r => r.json()),
       fetch('route_parcels_wgs.geojson').then(r => r.json()),
-      fetch('start.geojson').then(r => r.json()),
+      fetch('Start.geojson').then(r => r.json()),
       fetch('Water_treatment_plant.geojson').then(r => r.json())
     ])
     .then(([base, nlcd, parcels, startPt, endPt]) => {
@@ -149,5 +149,6 @@
 
 </body>
 </html>
+
 
 

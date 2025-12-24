@@ -22,6 +22,8 @@
 
   <script>
     const map = L.map('map');
+    map.setView([40.0, -104.8], 8); // temporary initial view (Colorado-ish)
+
 
     // Change base map to a more subtle option
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -90,4 +92,5 @@
   </script>
 </body>
 </html>
+
 
